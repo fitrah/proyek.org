@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="produk digital, web app, cms, dashboard, api, proyek.org" />
+  <meta name="description" content="Portofolio produk digital dan platform yang dikembangkan dalam ekosistem proyek.org." />
+  <meta name="author" content="Proyek.org" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <title>Proyek.org — Produk Digital & Platform</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 0 20px rgba(0,0,0,.06);
+      height: 100%;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(0,0,0,.10); }
+    .product-card .badge { background:#00bbf0; color:#fff; font-weight:600; }
+    .product-card h5 { margin:14px 0 10px; font-weight:700; color:#0b0f1a; }
+    .product-card p { color:#555; margin-bottom: 14px; }
+    .product-card .product-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 4px;
+      color: #00a8dc;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .product-card .product-link:hover { color:#007fa8; text-decoration:underline; }
+    .pill-list span {
+      display:inline-block; margin:6px 6px 0 0; padding:8px 12px;
+      border-radius:999px; background:rgba(255,255,255,.12); color:#fff; font-size:14px;
+      border:1px solid rgba(255,255,255,.15);
+    }
+    .section-title p { max-width: 760px; margin: 10px auto 0; }
+    .cta-box {
+      background: linear-gradient(135deg,#031f48,#0f3460);
+      color:#fff; border-radius:18px; padding:40px 30px;
+    }
+    .subtle { color:#d8e6ff; }
+  </style>
+</head>
+<body>
+  <div class="hero_area">
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>Proyek.org</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class=""> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kategori">Kategori</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="slider_section" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h1>Produk Digital<br>untuk Bisnis, Operasional, dan Layanan</h1>
+              <p>
+                Proyek.org merangkum berbagai web app, CMS, dashboard, portal, dan API yang dibangun untuk membantu operasional internal,
+                layanan publik, dan pertumbuhan bisnis secara lebih cepat dan terukur.
+              </p>
+              <div class="btn-box">
+                <a href="#produk" class="btn1">Lihat Produk</a>
+              </div>
+              <div class="pill-list mt-4">
+                <span>CMS & Portal</span>
+                <span>Dashboard Internal</span>
+                <span>API & Integrasi</span>
+                <span>Operational Tools</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/slider-img.png" alt="Proyek.org">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="service_section layout_padding" id="kategori">
+    <div class="service_container">
+      <div class="container">
+        <div class="heading_container heading_center section-title">
+          <h2>Kategori <span>Produk</span></h2>
+          <p>
+            Kumpulan solusi yang sudah dipakai untuk kebutuhan operasional, administrasi, integrasi sistem, dan layanan digital.
+          </p>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4 mb-4">
+            <div class="box">
+              <div class="img-box"><img src="images/s1.png" alt=""></div>
+              <div class="detail-box">
+                <h5>Business Apps</h5>
+                <p>Solusi untuk billing, account, operasional bisnis, portal layanan, dan pengelolaan proses harian.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="box">
+              <div class="img-box"><img src="images/s2.png" alt=""></div>
+              <div class="detail-box">
+                <h5>CMS & Portal</h5>
+                <p>Portal publik, CMS internal, landing page, dan antarmuka frontend untuk publikasi serta administrasi konten.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="box">
+              <div class="img-box"><img src="images/s3.png" alt=""></div>
+              <div class="detail-box">
+                <h5>API & Platform</h5>
+                <p>API, integrasi backend, dashboard, dan fondasi platform untuk konektivitas antar sistem dan layanan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about_section layout_padding" id="produk">
+    <div class="container">
+      <div class="heading_container heading_center section-title">
+        <h2>Produk <span>Unggulan</span></h2>
+        <p>
+          Daftar berikut diambil dari layanan/subdomain aktif yang sebelumnya dikelola dalam ekosistem <strong>*.proyek.org</strong>.
+        </p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Operations</span><h5>Kangloo</h5><p>Platform operasional laundry untuk membantu pengelolaan pesanan, pembayaran, laporan, dan aktivitas owner.</p><a class="product-link" href="https://dkangloo.proyek.org" target="_blank" rel="noopener noreferrer">Buka Kangloo <span aria-hidden="true">&rarr;</span></a></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Family Platform</span><h5>Family Tree</h5><p>Aplikasi silsilah keluarga untuk menyusun, menyimpan, dan menjelajahi hubungan antaranggota keluarga.</p><a class="product-link" href="https://family.proyek.org" target="_blank" rel="noopener noreferrer">Buka Family Tree <span aria-hidden="true">&rarr;</span></a></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Laundry SaaS</span><h5>KucekPro</h5><p>Aplikasi manajemen laundry end-to-end untuk outlet, kasir, work order, pembayaran, pelanggan, dan pelacakan pesanan.</p><a class="product-link" href="https://laundry.proyek.org" target="_blank" rel="noopener noreferrer">Buka KucekPro <span aria-hidden="true">&rarr;</span></a></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Portfolio Hub</span><h5>Proyek.org</h5><p>Etalase produk digital, web app, platform, dan eksperimen yang dikembangkan dalam ekosistem Proyek.org.</p><a class="product-link" href="https://proyek.org" target="_blank" rel="noopener noreferrer">Buka Proyek.org <span aria-hidden="true">&rarr;</span></a></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Gaming Platform</span><h5>Skyverse</h5><p>Platform game berbasis web dengan akun pemain, progres tersimpan, game kreatif, dan pengalaman multiplayer.</p><a class="product-link" href="https://skyverse.proyek.org" target="_blank" rel="noopener noreferrer">Buka Skyverse <span aria-hidden="true">&rarr;</span></a></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Portal & CMS</span><h5>APERD Suite</h5><p>Rangkaian frontend, CMS, dan API untuk kebutuhan portal serta pengelolaan konten dan data.</p><small>aperd.proyek.org · aperd-cms.proyek.org · aperd-api.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Business</span><h5>Billing Management</h5><p>Aplikasi untuk billing, workflow operasional, dan pengelolaan data transaksi internal.</p><small>billing-management.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Platform</span><h5>CGS Ecosystem</h5><p>Frontend, CMS, dan API yang menopang beberapa antarmuka publik dan layanan backend terintegrasi.</p><small>cgs-web.proyek.org · cgs-cms.proyek.org · cgs-api.proyek.org · cgs-sbn.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Operations</span><h5>Colok</h5><p>Solusi frontend dan API untuk operasional serta antarmuka kerja berbasis web.</p><small>colok.proyek.org · api-colok.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Public & Education</span><h5>Simak & KKN</h5><p>Produk untuk administrasi, akademik, dan dukungan program berbasis institusi/komunitas.</p><small>simak.proyek.org · kkn.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Service Tools</span><h5>GLPI, Location, Family</h5><p>Alat bantu internal untuk ticketing, lokasi, dan kebutuhan layanan/portal pendukung.</p><small>glpi.proyek.org · location.proyek.org · family.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Commerce & Account</span><h5>Dunia Akun & PPOB</h5><p>Produk untuk pengelolaan akun, portal transaksi, dan layanan publik berbasis web.</p><small>dunia-akun.proyek.org · ppob.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">Business Suite</span><h5>Talenta & Go</h5><p>Solusi untuk administrasi bisnis, operasional, dan interface pengguna akhir.</p><small>talenta.proyek.org · go.proyek.org</small></div></div>
+        <div class="col-md-6 col-lg-4 mb-4"><div class="product-card"><span class="badge">API & Integration</span><h5>Glofin API & WAPI</h5><p>Komponen integrasi dan API untuk memperkuat konektivitas antar aplikasi dan layanan.</p><small>api-glofin.proyek.org · wapi.proyek.org</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center section-title">
+        <h2>Kenapa <span>Proyek.org</span></h2>
+        <p>Fokus kami bukan sekadar bikin website, tapi membangun produk digital yang bisa dipakai, diukur, dan dikembangkan.</p>
+      </div>
+      <div class="why_container mt-4">
+        <div class="box"><div class="img-box"><img src="images/w1.png" alt=""></div><div class="detail-box"><h5>Produk Nyata</h5><p>Daftar produk di halaman ini berasal dari implementasi dan deployment yang pernah benar-benar berjalan.</p></div></div>
+        <div class="box"><div class="img-box"><img src="images/w2.png" alt=""></div><div class="detail-box"><h5>Fleksibel</h5><p>Bisa diposisikan sebagai portal publik, aplikasi internal, dashboard operasional, sampai fondasi API.</p></div></div>
+        <div class="box"><div class="img-box"><img src="images/w3.png" alt=""></div><div class="detail-box"><h5>Siap Dikembangkan</h5><p>Struktur produk dapat diperluas sesuai kebutuhan bisnis, layanan, maupun pertumbuhan organisasi.</p></div></div>
+        <div class="box"><div class="img-box"><img src="images/w4.png" alt=""></div><div class="detail-box"><h5>Terintegrasi</h5><p>Produk dapat dihubungkan dengan CMS, API, panel admin, workflow, hingga sistem pihak ketiga.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="client_section layout_padding-bottom" id="kontak">
+    <div class="container">
+      <div class="cta-box text-center">
+        <h2>Butuh Produk yang Mirip atau Ingin Menghidupkan Kembali Salah Satu Solusi?</h2>
+        <p class="subtle mt-3 mb-4">Kami bisa bantu mulai dari audit, penyesuaian fitur, sampai deployment ulang untuk kebutuhan operasional dan bisnis Anda.</p>
+        <a href="mailto:hello@proyek.org" class="btn1">Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>

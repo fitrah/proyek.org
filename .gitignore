@@ -1,0 +1,5 @@
+# Local backups and OS files
+backups/
+*.bak
+*.bak-*
+.DS_Store
